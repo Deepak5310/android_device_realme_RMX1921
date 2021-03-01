@@ -296,6 +296,10 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     offload.o
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    RealmeXTWifiOverlay
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
