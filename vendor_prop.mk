@@ -125,6 +125,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.renderengine.backend=skiaglthreaded \
     graphics.gpu.profiler.support=true \
     renderthread.skia.reduceopstasksplitting=true \
+    ro.config.avoid_gfx_accel=true \
     ro.hardware.egl=adreno \
     ro.hwui.use_vulkan=true \
     ro.hardware.vulkan=adreno
