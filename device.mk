@@ -156,12 +156,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.realme_sdm710 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
-# FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
-
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
