@@ -146,9 +146,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.vendor.perf.scroll_opt=true
 
-# SoC
+# Set soc model and manufacturer properties
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.soc.manufacturer=Qualcomm \
+    ro.soc.manufacturer=QTI \
     ro.soc.model=SDM710
 
 # Surfaceflinger properties
