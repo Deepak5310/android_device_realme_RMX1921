@@ -123,6 +123,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.sf.hw=1 \
+    debug.sdm.support_writeback=0 \
     ro.opengles.version=196610 \
     debug.renderengine.backend=skiaglthreaded \
     renderthread.skia.reduceopstasksplitting=true \
