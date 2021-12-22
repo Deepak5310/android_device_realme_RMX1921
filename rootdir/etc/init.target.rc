@@ -233,7 +233,7 @@ service vendor.imsdatadaemon /system/vendor/bin/imsdatadaemon
 service vendor.imsrcsservice /system/vendor/bin/imsrcsd
     class main
     user system
-    group radio diag inet log wakelock
+    group radio vendor_qti_diag inet log wakelock
 
 on property:vendor.ims.QMI_DAEMON_STATUS=1
     start vendor.imsdatadaemon
@@ -241,7 +241,7 @@ on property:vendor.ims.QMI_DAEMON_STATUS=1
 service cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
    class main
    user system
-   group system wifi inet sdcard_rw media_rw diag
+   group system wifi inet sdcard_rw media_rw vendor_qti_diag
    oneshot
    disabled
 

@@ -432,9 +432,9 @@ on post-fs-data
     # qti-logkit data
     mkdir /data/vendor/qti-logkit/ 0771 system system
     mkdir /data/vendor/qti-logkit/shared-privileged/ 2770 system system
-    mkdir /data/vendor/qti-logkit/shared-public/ 2770 system diag
+    mkdir /data/vendor/qti-logkit/shared-public/ 2770 system vendor_qti_diag
     mkdir /data/vendor/qti-logkit/socket-privileged/ 2770 system system
-    mkdir /data/vendor/qti-logkit/socket-public/ 2750 system diag
+    mkdir /data/vendor/qti-logkit/socket-public/ 2750 system vendor_qti_diag
     mkdir /data/vendor/qti-logkit/logdata/ 2750 system shell
 
     #Create SWAP related dirs
@@ -465,7 +465,7 @@ service iop /system/vendor/bin/iop
 service qcomsysd /system/vendor/bin/qcom-system-daemon
     class main
     user root
-    group root diag oem_2901
+    group root vendor_qti_diag oem_2901
     disabled
 
 on property:persist.vendor.qcomsysd.enabled=1
@@ -731,14 +731,14 @@ service vendor.bt_logger /system/bin/bt_logger
 service ftmd /system/bin/logwrapper /system/bin/ftmdaemon
     class late_start
     user root
-    group bluetooth net_bt_admin misc diag net_bt
+    group bluetooth net_bt_admin misc vendor_qti_diag net_bt
     disabled
     oneshot
 
 service qmiproxy /system/bin/qmiproxy
     class main
     user radio
-    group radio diag
+    group radio vendor_qti_diag
     disabled
 
 service vendor.sensors.qti /vendor/bin/sensors.qti
@@ -1036,14 +1036,14 @@ service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
     class main
     user radio
     disabled
-    group radio cache inet misc audio sdcard_r sdcard_rw diag oem_2901 log
+    group radio cache inet misc audio sdcard_r sdcard_rw vendor_qti_diag oem_2901 log
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
 
 service vendor.ril-daemon3 /vendor/bin/hw/rild -c 3
     class main
     user radio
     disabled
-    group radio cache inet misc audio sdcard_r sdcard_rw diag oem_2901 log
+    group radio cache inet misc audio sdcard_r sdcard_rw vendor_qti_diag oem_2901 log
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
 
 service profiler_daemon /system/bin/profiler_daemon
@@ -1128,7 +1128,7 @@ service vendor.LKCore-dbg /vendor/bin/LKCore
     oneshot
     disabled
     user root
-    group root system log diag net_raw
+    group root system log vendor_qti_diag net_raw
 
 # service for USER
 service vendor.LKCore-rel /vendor/bin/LKCore
@@ -1136,7 +1136,7 @@ service vendor.LKCore-rel /vendor/bin/LKCore
     oneshot
     disabled
     user system
-    group system log diag
+    group system log vendor_qti_diag
 
 on charger
     setprop persist.sys.usb.config mass_storage
