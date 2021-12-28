@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2020 The LineageOS Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2019-2020 The LineageOS Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -25,9 +24,9 @@
     <string name="hbm_mode_summary">"Incrementa la luminosità per una maggiore visibilità all'esterno"</string>
     <string name="hbm_mode_title">Alta luminosità</string>
     <string name="tile_hbm_mode">Alta luminosità</string>
-    <string name="hbm_autobrightness_summary"></string>
+    <string name="hbm_autobrightness_summary" />
     <string name="hbm_autobrightness_title">Alta luminosità automatica</string>
-    <string name="hbm_autobrightness_threshold_summary"></string>
+    <string name="hbm_autobrightness_threshold_summary" />
     <string name="hbm_autobrightness_threshold_title">"Soglia per l'alta luminosità automatica (lux)"</string>
     <!-- seed mode -->
     <string name="seed_mode_summary">Scegli in che modo i colori verranno mostrati</string>
@@ -63,7 +62,7 @@
     <string name="enable_gestures_summary">Attiva i gesti a schermo spento</string>
     <string name="gestures_title">Gesti</string>
     <string name="gesture_double_tap_title">Doppio tocco</string>
-    <string name="gesture_w_title">Gesto della W</string>	
+    <string name="gesture_w_title">Gesto della W</string>
     <string name="gesture_m_title">Gesto del M</string>
     <string name="gesture_s_title">Gesture S</string>
     <string name="gesture_circle_title">Gesto del cerchio</string>
@@ -200,7 +199,7 @@
 
     <string name="clear_speaker_title">"Pulisci l'altoparlante"</string>
     <string name="clear_speaker_summary">"Ascolta un audio di trenta secondi per pulire l'altoparlante"</string>
-    <string name="clear_speaker_description">"Esegui questo comando se hai notato che l'altoparlante è bloccato dalla polvere, alza il volume al massimo e metti il telefono con l'altoparlante verso il basso.\n\nSe non risolvi con una sola esecuzione ripeti 2-5 volte mentre sbatti il telefono.\n\nATTENZIONE: Controlla che le cuffie siano disconnesse."</string>
+    <string name="clear_speaker_description">"Esegui questo comando se hai notato che l'altoparlante è bloccato dalla polvere, alza il volume al massimo e metti il telefono con l'altoparlante verso il basso.\n\nSe non risolvi con una sola esecuzione ripeti 2–5 volte mentre sbatti il telefono.\n\nATTENZIONE: Controlla che le cuffie siano disconnesse."</string>
 
     <!-- Vibration -->
     <string name="vibration_title">Vibrazione</string>
