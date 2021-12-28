@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2020 The LineageOS Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2019-2020 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,30 +28,30 @@
     <string name="hbm_mode_summary">Peak brightness for better visibility in outdoors</string>
     <string name="hbm_mode_title">High brightness mode</string>
     <string name="tile_hbm_mode">High brightness modes</string>
-    <string name="hbm_autobrightness_summary"></string>
-    <string name="hbm_autobrightness_title">Automatic High brightness mode</string>
-    <string name="hbm_autobrightness_threshold_summary"></string>
-    <string name="hbm_autobrightness_threshold_title">Automatic High brightness mode threshold (lux)</string>
+    <string name="hbm_autobrightness_summary" translatable="false" />
+    <string name="hbm_autobrightness_title" translatable="false">Automatic High brightness mode</string>
+    <string name="hbm_autobrightness_threshold_summary" translatable="false" />
+    <string name="hbm_autobrightness_threshold_title" translatable="false">Automatic High brightness mode threshold (lux)</string>
     <!-- seed mode -->
-    <string name="seed_mode_summary">Choose how the colors will be rendered</string>
-    <string name="seed_summary">Display mode</string>
-    <string name="seed_title">Display mode</string>
-    <string name="seed_normal">Default</string>
-    <string name="seed_p3">HDR-Disabled</string>
-    <string name="seed_srgb">sRGB</string>
+    <string name="seed_mode_summary" translatable="false">Choose how the colors will be rendered</string>
+    <string name="seed_summary" translatable="false">Display mode</string>
+    <string name="seed_title" translatable="false">Display mode</string>
+    <string name="seed_normal" translatable="false">Default</string>
+    <string name="seed_p3" translatable="false">HDR-Disabled</string>
+    <string name="seed_srgb" translatable="false">sRGB</string>
     <!-- otg mode -->
     <string name="otg_mode_summary">Enable USB-OTG power supply for external headphones and flash drives</string>
     <string name="otg_mode_title">Enable USB-OTG</string>
     <string name="tile_otg_mode">Enable USB-OTG</string>
     <!-- game mode -->
-    <string name="gaming_title">Gaming</string>
+    <string name="gaming_title" translatable="false">Gaming</string>
     <string name="game_mode_summary">Boost Touch Sampling Rate, set performance profiles and DnD</string>
     <string name="game_mode_title">Game Mode</string>
     <string name="tile_game_mode">Game Mode</string>
-    <string name="dnd_title">Do Not Disturb</string>
-    <string name="dnd_summary">DND will be activated if Game Mode is enabled</string>
-    <string name="gamingperf_title">Gaming performance mode</string>
-    <string name="gamingperf_summary">Gaming performance mode will be activated if Game Mode is enabled</string>
+    <string name="dnd_title" translatable="false">Do Not Disturb</string>
+    <string name="dnd_summary" translatable="false">DND will be activated if Game Mode is enabled</string>
+    <string name="gamingperf_title" translatable="false">Gaming performance mode</string>
+    <string name="gamingperf_summary" translatable="false">Gaming performance mode will be activated if Game Mode is enabled</string>
     <!-- TouchScreen gestures -->
     <string name="dlg_ok">OK</string>
     <string name="cancel">Cancel</string>
@@ -65,7 +64,7 @@
     <string name="enable_gestures_summary">Enable screen off gestures</string>
     <string name="gestures_title">Gestures</string>
     <string name="gesture_double_tap_title">Gesture Double Tap</string>
-    <string name="gesture_w_title">Gesture W</string>	
+    <string name="gesture_w_title">Gesture W</string>
     <string name="gesture_m_title">Gesture M</string>
     <string name="gesture_s_title">Gesture S</string>
     <string name="gesture_circle_title">Gesture Circle</string>
@@ -155,15 +154,15 @@
     <string name="extreme_amoled">Extreme Amoled</string>
     <string name="warm_amoled">Warm Amoled</string>
     <string name="hybrid_mamba">Hybrid Mamba</string>
-    <string name="deep_amoled">Deep Amoled</string>
-    <string name="cold_amoled">Cold New Amoled</string>
-    <string name="clean_deep">Deep and Clean</string>
-    <string name="shamshung">Shamshung</string>
-    <string name="nature">Nature</string>
-    <string name="shamshung_cold">Cool Shamshung</string>
-    <string name="cold_as_ice">Extreme Cold</string>
-    <string name="deep_saturated">Deep and Saturated</string>
-    <string name="black_af">Deep Saturated Black</string>
+    <string name="deep_amoled" translatable="false">Deep Amoled</string>
+    <string name="cold_amoled" translatable="false">Cold New Amoled</string>
+    <string name="clean_deep" translatable="false">Deep and Clean</string>
+    <string name="shamshung" translatable="false">Samsung</string>
+    <string name="nature" translatable="false">Nature</string>
+    <string name="shamshung_cold" translatable="false">Cool Samsung</string>
+    <string name="cold_as_ice" translatable="false">Extreme Cold</string>
+    <string name="deep_saturated" translatable="false">Deep and Saturated</string>
+    <string name="black_af" translatable="false">Deep Saturated Black</string>
     <string name="kcal_hue">Hue</string>
     <string name="kcal_value">Value</string>
 
@@ -171,23 +170,23 @@
     <string name="audio_title">Audio</string>
 
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    <string name="switch_bar_on">On</string>
-    <string name="switch_bar_off">Off</string>
+    <string name="custom_seekbar_value" translatable="false">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value" translatable="false">Default</string>
+    <string name="custom_seekbar_default_value_to_set" translatable="false">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set" translatable="false">Default value is set</string>
+    <string name="switch_bar_on" translatable="false">On</string>
+    <string name="switch_bar_off" translatable="false">Off</string>
 
-    <string name="audio_gain_settings">Audio Amplification</string>
-    <string name="gain_summary">Improve audio devices gain</string>
+    <string name="audio_gain_settings" translatable="false">Audio Amplification</string>
+    <string name="gain_summary" translatable="false">Improve audio devices gain</string>
 
     <!-- Audio amplification -->
-    <string name="headphone_gain">Headphone gain</string>
-    <string name="microphone_gain">Microphone gain</string>
+    <string name="headphone_gain" translatable="false">Headphone gain</string>
+    <string name="microphone_gain" translatable="false">Microphone gain</string>
 
     <!-- Dolby -->
-    <string name="dolby_summary">Open Dolby Atmos app</string>
-    <string name="dolby_title">Dolby App</string>
+    <string name="dolby_summary" translatable="false">Open Dolby Atmos app</string>
+    <string name="dolby_title" translatable="false">Dolby App</string>
 
     <!-- Performance Profiles -->
     <string name="performance_profile_title">Performance</string>
@@ -202,14 +201,14 @@
     <string name="performance_balance">Balance</string>
 
     <!-- Clear speaker -->
-    <string name="clear_speaker_title">Clear speaker</string>
-    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
-    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
-    
+    <string name="clear_speaker_title" translatable="false">Clear speaker</string>
+    <string name="clear_speaker_summary" translatable="false">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description" translatable="false">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2–5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+
     <!-- Vibration -->
-    <string name="vibration_title">Vibration</string>
-    <string name="vibration_summary">Customize vibration strenght</string>
-    <string name="vibration_strength_system_title">System vibration</string>
-    <string name="vibration_strength_notification_title">Notification vibration</string>
-    <string name="vibration_strength_call_title">Call vibration</string>
+    <string name="vibration_title" translatable="false">Vibration</string>
+    <string name="vibration_summary" translatable="false">Customize vibration strenght</string>
+    <string name="vibration_strength_system_title" translatable="false">System vibration</string>
+    <string name="vibration_strength_notification_title" translatable="false">Notification vibration</string>
+    <string name="vibration_strength_call_title" translatable="false">Call vibration</string>
 </resources>
