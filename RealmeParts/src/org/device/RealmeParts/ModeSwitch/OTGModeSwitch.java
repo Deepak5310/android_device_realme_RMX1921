@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.device.RealmeParts;
+package org.device.RealmeParts.ModeSwitch;
 
 import android.content.Context;
 import android.content.SharedPreferences;

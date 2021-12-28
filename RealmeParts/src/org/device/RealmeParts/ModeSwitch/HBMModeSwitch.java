@@ -16,7 +16,7 @@
 *
 */
 
-package org.device.RealmeParts;
+package org.device.RealmeParts.ModeSwitch;
 
 import android.content.Context;
 import android.content.SharedPreferences;
