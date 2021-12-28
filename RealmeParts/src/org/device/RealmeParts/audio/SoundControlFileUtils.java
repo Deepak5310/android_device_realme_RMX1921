@@ -39,7 +39,7 @@ public final class SoundControlFileUtils {
                 return;
             }
             try {
-                FileOutputStream fos = new FileOutputStream(new File(path));
+                FileOutputStream fos = new FileOutputStream(path);
                 fos.write(Integer.toString(value).getBytes());
                 fos.flush();
                 fos.close();
@@ -55,7 +55,7 @@ public final class SoundControlFileUtils {
                 return;
             }
             try {
-                FileOutputStream fos = new FileOutputStream(new File(path));
+                FileOutputStream fos = new FileOutputStream(path);
                 fos.write(Long.toString(Math.round(value)).getBytes());
                 fos.flush();
                 fos.close();
@@ -71,7 +71,7 @@ public final class SoundControlFileUtils {
                 return;
             }
             try {
-                FileOutputStream fos = new FileOutputStream(new File(path));
+                FileOutputStream fos = new FileOutputStream(path);
                 fos.write(value.getBytes());
                 fos.flush();
                 fos.close();
