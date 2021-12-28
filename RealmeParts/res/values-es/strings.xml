@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2020 The LineageOS Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2019-2020 The LineageOS Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -24,7 +23,7 @@
     <string name="dc_mode_title">DC-Dimming</string>
     <string name="tile_dc_mode">DC-Dimming</string>
     <!-- HBM mode -->
-    <string name="hbm_mode_summary">Brillo maximo para mejor visibilidad</string>
+    <string name="hbm_mode_summary">Brillo máximo para mejor visibilidad</string>
     <string name="hbm_mode_title">Modo de brillo alto </string>
     <string name="tile_hbm_mode">Modo de brillo alto </string>
     <!-- otg mode -->
@@ -48,7 +47,7 @@
     <string name="enable_gestures_summary">Habilitar gestos en pantalla apagada</string>
     <string name="gestures_title">Gestos</string>
     <string name="gesture_double_tap_title">Gesto Doble Toque</string>
-    <string name="gesture_w_title">Gesto W</string>	
+    <string name="gesture_w_title">Gesto W</string>
     <string name="gesture_m_title">Gesto M</string>
     <string name="gesture_s_title">Gesto S</string>
     <string name="gesture_circle_title">Gesto Circulo</string>
@@ -68,33 +67,33 @@
     <string name="dt2w_title">Doble toque</string>
     <string name="haptic_feedback_title">Retroalimentacion tactil</string>
 
-    <!-- Acciones de los atajos -->                                                              
+    <!-- Acciones de los atajos -->
     <string name="shortcut_action_none">Nada</string>
     <string name="shortcut_action_app">Aplicacion personalizada</string>
     <string name="shortcut_action_assist">Ahora en el toque</string>
     <string name="shortcut_action_ring_vib">Sonido/Vibracion</string>
     <string name="shortcut_action_ring_silent">Sonido/Silencio</string>
     <string name="shortcut_action_ring_vib_silent">Sonido/Vibracion/Silencio</string>
-    <string name="shortcut_action_camera">Camara</string>
-    <string name="shortcut_action_media_next">Musica - pista siguiente</string>
-    <string name="shortcut_action_media_play_pause">Musica -reproducir/pausa</string>
-    <string name="shortcut_action_media_previous">Musica - pista anterior</string>
+    <string name="shortcut_action_camera">Cámara</string>
+    <string name="shortcut_action_media_next">Música - pista siguiente</string>
+    <string name="shortcut_action_media_play_pause">Música -reproducir/pausa</string>
+    <string name="shortcut_action_media_previous">Música - pista anterior</string>
     <string name="shortcut_action_wake_device">Encender el dispositivo</string>
     <string name="shortcut_action_torch">Linterna</string>
     <string name="shortcut_action_longpress">Pulsacion larga:</string>
-    <string name="shortcut_action_select_action_longpress">Seleccionar accion de pulsacion larga:</string>
-    <string name="shortcut_action_select_action">Seleccionar accion</string>
-    <string name="shortcut_action_select_action_newaction">Seleccionar accion nueva:</string>
+    <string name="shortcut_action_select_action_longpress">Seleccionar acción de pulsacion larga:</string>
+    <string name="shortcut_action_select_action">Seleccionar acción</string>
+    <string name="shortcut_action_select_action_newaction">Seleccionar acción nueva:</string>
     <string name="shortcut_action_reset">Restablecer</string>
     <string name="shortcut_action_add">Añadir</string>
     <string name="shortcut_action_reset_message">Restablecer todos los ajustes?</string>
-    <string name="shortcut_action_max">Se alcanzo el tamaño maximo de entradas</string>
+    <string name="shortcut_action_max">Se alcanzo el tamaño máximo de entradas</string>
     <string name="shortcut_action_warning">Advertencia</string>
     <string name="shortcut_action_warning_message">No es posible eliminar la ultima entrada</string>
     <string name="shortcut_action_required_warning_message">No es posible eliminar los botones requeridos</string>
-    <string name="shortcut_action_disable_message">Deshabilitar\Añadir una entrada para habilitar esta funcion</string>
-    <string name="shortcut_image_not_valid">La aplicacion seleccionada no regreso un icono valido o no soporta el recorte de imagenes.Use otra aplicacion.</string>
-    <string name="shortcut_duplicate_entry">No se puede añadir la accion seleccionada dos veces</string>
+    <string name="shortcut_action_disable_message">Deshabilitar\Añadir una entrada para habilitar esta función</string>
+    <string name="shortcut_image_not_valid">La aplicacion seleccionada no regreso un icono valido o no soporta el recorte de imágenes.Use otra aplicacion.</string>
+    <string name="shortcut_duplicate_entry">No se puede añadir la acción seleccionada dos veces</string>
     <string name="shortcut_action_help_shortcut">atajo</string>
     <string name="shortcut_action_help_button">boton</string>
     <string name="shortcut_action_help_app">aplicacion</string>
@@ -104,10 +103,10 @@
     <string name="shortcut_action_vol_up">Subir el volumen</string>
     <string name="shortcut_action_vol_down">Bajar el volumen</string>
 
-    <!-- Ajustes especificos del dispositivo --> 
+    <!-- Ajustes especificos del dispositivo -->
     <string name="screen_off_gesture_settings_title">Gestos de pantalla apagada</string>
 
-    <!-- Gesto de retroalimentacion tactil --> 
+    <!-- Gesto de retroalimentacion tactil -->
     <string name="touchscreen_gesture_haptic_feedback">Retroalimentacion tactil</string>
     <string name="touchscreen_gesture_haptic_feedback_summary">Vibrar al detectar un gesto</string>
 
@@ -125,7 +124,7 @@
     <string name="menu_reset">Restablecer</string>
     <string name="kcal_color_temp">Temperatura de color (K)</string>
 
-    <string name="kcal_greyscale_title">Escala de gris</string>                              
+    <string name="kcal_greyscale_title">Escala de gris</string>
     <string name="kcal_greyscale_summary">Apagar completamente la saturacion</string>
     <string name="presets_list_title">Cargar preset KCAL</string>
     <string name="default_values">Por defecto</string>
@@ -140,9 +139,9 @@
     <string name="warm_amoled">Warm Amoled</string>
     <string name="hybrid_mamba">Hybrid Mamba</string>
     <string name="kcal_hue">Sombra</string>
-    <string name="kcal_value">Valor</string>                                     
+    <string name="kcal_value">Valor</string>
 
-    <!-- Audio -->  
+    <!-- Audio -->
     <string name="audio_title">Audio</string>
 
     <string name="performance_profile_title">Performance</string>
