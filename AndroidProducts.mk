@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_RMX1921.mk
+    $(LOCAL_DIR)/awaken_RMX1921.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_RMX1921-userdebug \
-    derp_RMX1921-eng
+    awaken_RMX1921-user \
+    awaken_RMX1921-userdebug \
+    awaken_RMX1921-eng
