@@ -37,8 +37,8 @@ import androidx.preference.SwitchPreference;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
-import com.android.internal.aospextended.hardware.LineageHardwareManager; // Need FWB support
-import com.android.internal.aospextended.hardware.TouchscreenGesture; // Need FWB support
+import com.android.internal.awaken.hardware.LineageHardwareManager; // Need FWB support
+import com.android.internal.awaken.hardware.TouchscreenGesture; // Need FWB support
 
 import com.realmeparts.settings.R;
 
