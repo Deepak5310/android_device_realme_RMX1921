@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_RMX1921.mk
+    $(LOCAL_DIR)/p404_RMX1921.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_RMX1921-userdebug \
-    ancient_RMX1921-eng
+    p404_RMX1921-user \
+    p404_RMX1921-userdebug \
+    p404_RMX1921-eng
