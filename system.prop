@@ -23,6 +23,7 @@ ro.camera.attr.detect.enable=1
 ro.camera.notify_nfc=1
 camera.disable_zsl_mode=true
 persist.camera.managebuffer.enable=1
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.android.MGC
 
 # Charger
 ro.charger.enable_suspend=true
