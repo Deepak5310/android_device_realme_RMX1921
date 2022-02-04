@@ -6,6 +6,7 @@
 
 # Inherit some common Awaken stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
