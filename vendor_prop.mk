@@ -123,8 +123,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sdm.support_writeback=0 \
     ro.opengles.version=196610 \
     debug.renderengine.backend=skiaglthreaded \
+    graphics.gpu.profiler.support=true \
     renderthread.skia.reduceopstasksplitting=true \
     ro.hardware.egl=adreno \
+    ro.hwui.use_vulkan=true \
     ro.hardware.vulkan=adreno
 
 # IMS
