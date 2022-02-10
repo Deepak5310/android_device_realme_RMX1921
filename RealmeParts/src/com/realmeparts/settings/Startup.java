@@ -43,8 +43,6 @@ public class Startup extends BroadcastReceiver {
         restore(OTGModeSwitch.getFile(), enabled);
         enabled = sharedPrefs.getBoolean(RealmeParts.PREF_GAME_SWITCH, false);
         restore(GameModeSwitch.getFile(), enabled);
-        enabled = sharedPrefs.getBoolean(RealmeParts.PREF_VMAX_OVERRIDE_SWITCH, false);
-        restore(VibratorOverrideModeSwitch.getFile(), enabled);
     }
 
     private boolean hasRestoredTunable(Context context) {

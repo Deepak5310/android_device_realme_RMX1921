@@ -72,15 +72,6 @@
     <string name="doze_settings_help_title">Help</string>
     <string name="doze_settings_help_text">These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.</string>
 
-    <!-- Vibration Slider -->
-    <string name="vibrator_intensity_control">Vibration</string>
-    <string name="vmax_override_mode_title">Override Vibration Intensity</string>
-    <string name="vmax_override_mode_summary">Overrides vibration intensity value of Notification for all events</string>
-    <string name="vmax_override_mode_footer">Uses the value set for incomming call vibration intensity</string>
-    <string name="system_strength_title">System</string>
-    <string name="notification_strength_title">Notification</string>
-    <string name="call_strength_title">Call</string>
-
     <!-- Screen off Gestures : Input -->
     <string name="touchscreen_gesture_category">Screen OFF Gestures</string>
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
