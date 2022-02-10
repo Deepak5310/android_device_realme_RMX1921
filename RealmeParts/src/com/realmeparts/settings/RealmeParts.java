@@ -31,12 +31,8 @@ import androidx.preference.TwoStatePreference;
 
 import com.realmeparts.settings.dirac.DiracActivity;
 import com.realmeparts.settings.doze.DozeSettingsActivity;
-import com.realmeparts.settings.kcal.KCalSettingsActivity;
 
 public class RealmeParts extends PreferenceFragment {
-
-    public static final String PREF_USB_FAST_CHARGE_SWITCH = "fastcharge";
-    public static final String USB_FAST_CHARGE_PATH = "/sys/kernel/fast_charge/force_fast_charge";
 
     public static final String PREF_OTG_SWITCH = "otg";
     public static final String USB_OTG_SWITCH_PATH = "/sys/class/power_supply/usb/otg_switch";
@@ -47,7 +43,6 @@ public class RealmeParts extends PreferenceFragment {
     public static final String TP_LIMIT_ENABLE = "/proc/touchpanel/oppo_tp_limit_enable";
     public static final String TP_DIRECTION = "/proc/touchpanel/oppo_tp_direction";
 
-    private static TwoStatePreference mUSBFastChgModeSwitch;
     private static TwoStatePreference mOTGModeSwitch;
     private static TwoStatePreference mGameModeSwitch;
 
@@ -83,21 +78,6 @@ public class RealmeParts extends PreferenceFragment {
                 return true;
             }
         });
-
-        Preference mKCal = findPreference("device_kcal");
-        mKCal.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                Intent intent = new Intent(getActivity().getApplicationContext(), KCalSettingsActivity.class);
-                startActivity(intent);
-                return true;
-            }
-        });
-
-        mUSBFastChgModeSwitch = (TwoStatePreference) findPreference(PREF_USB_FAST_CHARGE_SWITCH);
-        mUSBFastChgModeSwitch.setEnabled(USBFastChgModeSwitch.isSupported());
-        mUSBFastChgModeSwitch.setChecked(USBFastChgModeSwitch.isCurrentlyEnabled(this.getContext()));
-        mUSBFastChgModeSwitch.setOnPreferenceChangeListener(new USBFastChgModeSwitch(getContext()));
 
         mOTGModeSwitch = (TwoStatePreference) findPreference(PREF_OTG_SWITCH);
         mOTGModeSwitch.setEnabled(OTGModeSwitch.isSupported());

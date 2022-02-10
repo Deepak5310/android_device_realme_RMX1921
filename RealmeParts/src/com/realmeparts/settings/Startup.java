@@ -37,8 +37,6 @@ public class Startup extends BroadcastReceiver {
         boolean enabled = false;
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
         TouchscreenGestureSettings.MainSettingsFragment.restoreTouchscreenGestureStates(context);
-        enabled = sharedPrefs.getBoolean(RealmeParts.PREF_USB_FAST_CHARGE_SWITCH, false);
-        restore(USBFastChgModeSwitch.getFile(), enabled);
         enabled = sharedPrefs.getBoolean(RealmeParts.PREF_OTG_SWITCH, false);
         restore(OTGModeSwitch.getFile(), enabled);
         enabled = sharedPrefs.getBoolean(RealmeParts.PREF_GAME_SWITCH, false);

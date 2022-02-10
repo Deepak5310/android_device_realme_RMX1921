@@ -84,17 +84,6 @@
         </service>
 
         <service
-            android:name=".UsbFastChgToggleService"
-            android:icon="@drawable/ic_usb_fastcharge"
-            android:label="@string/fastcharge_title"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action
-                    android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-
-        <service
             android:name=".OtgToggleService"
             android:icon="@drawable/ic_otg_tile"
             android:label="@string/tile_otg_mode"
@@ -144,17 +133,6 @@
             android:label="@string/touchscreen_gesture_settings_title"
             android:exported="true"
             android:theme="@style/Theme.SubSettingsBase">
-        </activity>
-
-        <activity
-            android:name=".kcal.KCalSettingsActivity"
-            android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase"
-            android:label="@string/advanced_settings_kcal">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
 
     </application>
