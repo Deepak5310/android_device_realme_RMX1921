@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_RMX1921.mk
+    $(LOCAL_DIR)/kscope_RMX1921.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_RMX1921-user \
-    cherish_RMX1921-userdebug \
-    cherish_RMX1921-eng
+    kscope_RMX1921-user \
+    kscope_RMX1921-userdebug \
+    kscope_RMX1921-eng

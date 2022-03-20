@@ -28,7 +28,7 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="31" />
+        android:targetSdkVersion="24" />
 
     <application
         android:label="@string/ambient_display_gestures_title"
