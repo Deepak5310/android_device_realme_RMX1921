@@ -10,6 +10,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from RMX1921 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/core/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1921
