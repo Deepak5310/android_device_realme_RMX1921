@@ -13,7 +13,7 @@ repo sync
 ### 2 Clone Device Source
 
 ```bash
-git clone https://github.com/Parixshit/android_device_realme_RMX1921.git -b 12.1 device/realme/RMX1921
+git clone https://github.com/Deepak5310/android_device_realme_RMX1921.git -b 12.1 device/realme/RMX1921
 ```
 
 ### 3 Building
